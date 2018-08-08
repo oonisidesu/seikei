@@ -1,11 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 15px rgb(33, 167, 219);
+  font-size: 40px;
+  font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+}
 
 h2 {
   text-align: center;
   color: #fff;
   text-shadow: 0 0 15px rgb(33, 167, 219);
-  font-size: 40px;
+  font-size: 28px;
   font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
 }
 
@@ -20,7 +27,7 @@ h2 {
 }
 
 #form-div {
-    background-color:rgba(72,72,72,0.4);
+    background-color:rgba(185, 201, 117, 0.4);
     padding-left:3%;
     padding-right:3%;
     padding-top:10px;
@@ -88,7 +95,7 @@ input:focus, textarea:focus {
 #button-blue{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     float:left;
-    width: 120px;
+    width: 150px;
     border: #fbfbfb solid 4px;
     cursor:pointer;
     background-color: #43b3fd;
@@ -130,7 +137,7 @@ input:focus, textarea:focus {
 #button-green{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   float:right;
-  width: 120px;
+  width: 150px;
   border: #fbfbfb solid 4px;
   cursor:pointer;
   background-color: #43fd6b;
