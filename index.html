@@ -14,9 +14,6 @@
                 f = f.replace(/\r?\n/g," ");
 
                 document.fm.text1.value = f;
-
-                alert(f.length + '文字変換しました〜');	
-            
             }
 
             function btn_click1(){
@@ -56,6 +53,17 @@
                 
             }
 
+            function btn_click3(){
+                var f1 = document.fm.text.value;
+                
+                if(f1.length == 0){
+                    alert('1文字も入ってないよ〜');
+                }else{
+                    alert(f1.length + '文字です');
+                }
+
+            }
+
         </script>
         </head>
         <body>
@@ -88,6 +96,11 @@
 
                     <div class="submit">
                         <input type="button" value="リセット" id="button-red" onclick="btn_click2()"/>
+                        <div class="ease2"></div>
+                    </div>
+
+                    <div class="submit">
+                        <input type="button" value="文字数" id="button-gree" onclick="btn_click3()"/>
                         <div class="ease2"></div>
                     </div>
                     
