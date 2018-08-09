@@ -15,14 +15,14 @@
 
                 document.fm.text1.value = f;
 
-                alert(f.length + '文字変換しましたー');	
+                alert(f.length + '文字変換しました〜');	
             
             }
 
             function btn_click1(){
                 var f = document.fm.text1.value;
                 if(execCopy(f)){
-                    alert('コピーできました-');
+                    alert('コピーできました〜');
                 }
                 else {
                     alert('このブラウザでは対応していません');
@@ -47,6 +47,15 @@
                 document.body.removeChild(temp);
                 // true なら実行できている falseなら失敗か対応していないか
                 return result;
+            }
+
+            function btn_click2(){
+
+                document.fm.text.value = null;
+                document.fm.text1.value = null;
+
+                alert('リセットしました〜');	
+                
             }
 
         </script>
@@ -78,7 +87,12 @@
                       <div class="ease"></div>
                     </div>
 
-                    <p class="aida"></p>
+
+                    <div class="submit">
+                        <input type="button" value="リセット" id="button-red" onclick="btn_click2()"/>
+                        <div class="ease2"></div>
+                    </div>
+                    
 
                     <div class="submit">
                         <input type="button" value="コピー" id="button-green" onclick="btn_click1()"/>

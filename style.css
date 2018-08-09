@@ -133,10 +133,51 @@ input:focus, textarea:focus {
 
 
 
+#button-red{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float:left;
+  width: 150px;
+  border: #fbfbfb solid 4px;
+  cursor:pointer;
+  background-color: #f08a5a;
+  color:white;
+  font-size:24px;
+  padding-top:22px;
+  padding-bottom:22px;
+  padding-left:22px;
+  padding-right:22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-red:hover{
+  background-color: rgba(0,0,0,0);
+  color: #f08a5a;
+}
+  
+.ease2 {
+  float:left;
+  width: 0px;
+  height: 80px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+
+
+
+
 
 #button-green{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  float:right;
+  float:left;
   width: 150px;
   border: #fbfbfb solid 4px;
   cursor:pointer;
@@ -158,7 +199,7 @@ input:focus, textarea:focus {
 }
     
 .ease1 {
-  float:right;
+  float:left;
   width: 0px;
   height: 80px;
   background-color: #fbfbfb;
